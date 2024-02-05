@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: #fff;
+
+}
+.navLogo{
+    margin-left: -80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navLogo img{
+    width: 100px;
+
+}
+.navLogo p{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 700;
+}
+.navMenu{
+    display: flex;
+    gap: 50px;
+    color: rgb(83, 83, 83);
+    font-size: 22px;
+    font-weight: 500;
+    align-items: center;
+    list-style-type: none;
+}
+.navMenu li{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.navMenu hr{
+    border: none;
+    width: 80%;
+    border-radius: 10px;
+    height: 3px;
+    background: red;
+}
+.navCart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.navCart button{
+    width: 157px;
+    height: 50px;
+    outline: none;
+    border: 3px solid red;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 700;
+    background: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.navCart button:hover{
+    background: rgb(250, 5, 5);
+    color: white;
+}
+.nv{
+    text-decoration: none;
+}
+.navCartCount{
+    width: 22px;
+    height:22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    font-size: 14px;
+    background-color:#ff2501;
+    color: white;
+    border-radius: 50%;
+}
+.navCart img{
+    width: 50px;
+}
+@media screen and (max-width: 968px){
+    .navbar{
+        display: grid;
+    }
+    .navLogo{
+        margin-left: -1px;
+    }
+}
